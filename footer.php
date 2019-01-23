@@ -3,22 +3,22 @@
        <h1>Who we work with</h1>
        <div id="partners-list">
            <div class="client">
-               <img src="<?php echo get_theme_file_uri('/images/compare.jpg') ?>" alt="compare">
+               <img src="<?php echo get_theme_file_uri('/images/ctm-logo-white.png') ?>" alt="compare">
            </div>
            <div class="client">
-               <img src="<?php echo get_theme_file_uri('/images/sundaytimes.jpg') ?>" alt="sunday times">
+               <img src="<?php echo get_theme_file_uri('/images/sunday.png') ?>" alt="sunday times" id="sunday_times">
            </div>
            <div class="client">
-               <img src="<?php echo get_theme_file_uri('/images/thomascook.jpg') ?>" alt="thomas cook">
+               <img src="<?php echo get_theme_file_uri('/images/thomas.png') ?>" alt="thomas cook">
            </div>
            <div class="client">
                <img src="<?php echo get_theme_file_uri('/images/wgsn.jpg') ?>" alt="wgsn">
            </div>
            <div class="client">
-               <img src="<?php echo get_theme_file_uri('/images/Beagle.png') ?>" alt="beagle">
+               <img src="<?php echo get_theme_file_uri('/images/beagle.png') ?>" alt="beagle" id="beagle">
            </div>
            <div class="client">
-               <img src="<?php echo get_theme_file_uri('/images/affinion.png') ?>" alt="affinion">
+               <img src="<?php echo get_theme_file_uri('/images/affinion-logo.png') ?>" alt="affinion">
            </div>
            <div class="client">
                <img src="<?php echo get_theme_file_uri('/images/tes.jpg') ?>" alt="tes">
