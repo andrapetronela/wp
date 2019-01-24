@@ -44,7 +44,7 @@
            </div>
        </div>
    </div>
-   <div id="footer-text">
+   <div class="footer-text">
        <h1 class="footer-color">Say hello to digital labs</h1>
         <p id="call-text">Give us a call to discuss any project or to arrange a time to pop in to chat.</p>
         <p class="footer-color phone-number">020 3744 5525</p>

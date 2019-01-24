@@ -1,5 +1,5 @@
 <footer id="footer">
-   <div id="footer-text">
+   <div class="footer-text footer-container">
         <div id="left-footer">
             <p id="address">55 Charlotte Road, Shoreditch, London, EC2A 3QF</p>
             <div id="footer-links">

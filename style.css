@@ -288,7 +288,7 @@ footer {
     color: #8c7651;
 }
 
-#footer-text {
+.footer-text {
     width: 75vw;
     display: block;
     margin: 5rem auto 0;
@@ -398,6 +398,11 @@ footer {
 
 #privacy span:hover {
     color: #888;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
 }
 
 .page {
