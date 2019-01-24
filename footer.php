@@ -1,33 +1,4 @@
 <footer id="footer">
-   <div id="partners-section">
-       <h1>Who we work with</h1>
-       <div id="partners-list">
-           <div class="client">
-               <img src="<?php echo get_theme_file_uri('/images/ctm.png') ?>" alt="compare">
-           </div>
-           <div class="client">
-               <img src="<?php echo get_theme_file_uri('/images/sunday.png') ?>" alt="sunday times" id="sunday_times">
-           </div>
-           <div class="client">
-               <img src="<?php echo get_theme_file_uri('/images/thomas.png') ?>" alt="thomas cook">
-           </div>
-           <div class="client">
-               <img src="<?php echo get_theme_file_uri('/images/wgsn.svg') ?>" alt="wgsn">
-           </div>
-           <div class="client">
-               <img src="<?php echo get_theme_file_uri('/images/beagle.png') ?>" alt="beagle" id="beagle">
-           </div>
-           <div class="client">
-               <img src="<?php echo get_theme_file_uri('/images/affinion-logo.png') ?>" alt="affinion">
-           </div>
-           <div class="client">
-               <img src="<?php echo get_theme_file_uri('/images/tes.svg') ?>" alt="tes">
-           </div>
-           <div class="client">
-               <img src="<?php echo get_theme_file_uri('/images/lottoland.png') ?>" alt="lottoland">
-           </div>
-       </div>
-   </div>
    <div id="footer-text">
        <h1 class="footer-color">Say hello to digital labs</h1>
         <p id="call-text">Give us a call to discuss any project or to arrange a time to pop in to chat.</p>

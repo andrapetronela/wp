@@ -7,8 +7,7 @@ function myFunctionFiles() {
     
     wp_enqueue_style('font-awesome', '//use.fontawesome.com/releases/v5.6.3/css/all.css');
         
-    wp_enqueue_style('main_styles', get_stylesheet_uri());
-    
+    wp_enqueue_style('main_styles', get_stylesheet_uri());    
 }
 
 add_action('wp_enqueue_scripts', 'myFunctionFiles');

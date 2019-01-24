@@ -4,8 +4,15 @@ get_header();
         the_post(); 
     } ?>
     
-<div class="banner">
-    <h1 class="page-title"><?php the_title(); ?></h1>
-    <p>I am a paragraph.</p>
+<div class="page">
+   <div id="page-container">
+       <h1 class="page-title">
+           <?php the_title(); ?>
+        </h1>
+        <h2 class="page-description">
+            <?php the_content() ?>
+        </h2>
+        <?php get_footer() ?>
+   </div>
 </div>
     
