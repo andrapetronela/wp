@@ -14,7 +14,7 @@
         </div>
         <div id="header_links">
             <a href="<?php echo site_url('/what-we-do') ?>">What we do</a>
-            <a href="#">careers</a>
-            <a href="#">Get in touch</a>
+            <a href="<?php echo site_url('/careers') ?>">Careers</a>
+            <a href="<?php echo site_url('/say-hello') ?>">Get in touch</a>
         </div>
     </nav>

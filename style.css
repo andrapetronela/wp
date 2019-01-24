@@ -403,13 +403,12 @@ footer {
 .page {
     background: #fff;
     color: #222;
-/*    height: 100vh;*/
 }
 
 #page-container {
     display: block;
     margin: 0 auto;
-    padding: 5rem 0 0;
+    padding: 5rem 0 0 15rem;
 }
 
 .page-title {
@@ -422,7 +421,7 @@ footer {
 }
 
 .page-description {
-    width: 50%;
+    width: 70%;
     margin-top: 20px;
     opacity: 0.8;
     color: #686868;

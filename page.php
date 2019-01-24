@@ -12,7 +12,9 @@ get_header();
         <h2 class="page-description">
             <?php the_content() ?>
         </h2>
-        <?php get_footer() ?>
    </div>
+   <?php get_footer() ?>
 </div>
+   
+
     
