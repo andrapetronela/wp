@@ -13,7 +13,6 @@ Version: 1.0
 
 body {
     color: #fff;
-/*    background: #000;*/
     overflow-x: hidden;
 }
 
@@ -21,7 +20,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 5;
     color: #000;
 }
 
@@ -86,12 +84,11 @@ nav {
 }
 
 .hero {
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('screenshot.jpg');
+    height: 130vh;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 2%, transparent 20%), url('screenshot.jpg');
     background-size: cover;
-    background-position: center;
-    position: relative;
-    top: 0;
+    background-position: top;
+    margin-top: -5rem;
 }
 
 .hero p {
@@ -99,6 +96,9 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-size: 3rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.01));
 }
 
 #section-about {
@@ -143,13 +143,15 @@ nav {
 
 #card-container-wwd {
     display: flex;
-    margin: 0 2rem 5rem;
+    margin: 0 auto 5rem;
+    width: 1000px;
     justify-content: space-around;
 }
 
 .card-wwd {
     line-height: 1.5;
-    max-width: 350px;
+    font-weight: 300;
+    max-width: 25%;
     border-bottom: 1px solid #d9d9d9;
     padding: 1.5rem 0 3rem;
     display: flex;

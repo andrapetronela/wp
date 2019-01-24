@@ -1,7 +1,6 @@
 <?php get_header(); ?>
-   
     <section class="hero">
-        <p>Create the digital experience your customers deserve.</p>
+        <p>Your creativity journey starts here.</p>
     </section>
     
     <section id="section-about">
