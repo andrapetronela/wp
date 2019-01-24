@@ -13,7 +13,7 @@ Version: 1.0
 
 body {
     color: #fff;
-    background: #000;
+/*    background: #000;*/
     overflow-x: hidden;
 }
 
@@ -21,15 +21,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-/*    padding: 1rem;*/
-    position: relative;
-    top: 0;
     z-index: 5;
+    color: #000;
 }
 
 #logo {
     font-weight: 800;
     font-size: 1.5rem;
+    padding-left: 5rem;
 }
 
 .logo-icon {
@@ -40,11 +39,12 @@ nav {
     width: 30vw;
     display: flex;
     justify-content: space-around;
+    padding-right: 5rem;
 }
 
 #header_links a:link,
 #header_links a:visited {
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 12px;
@@ -75,7 +75,7 @@ nav {
 
 #home-target:link,
 #home-target:visited {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     cursor: pointer;
 }
@@ -90,6 +90,8 @@ nav {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('screenshot.jpg');
     background-size: cover;
     background-position: center;
+    position: relative;
+    top: 0;
 }
 
 .hero p {
@@ -294,7 +296,7 @@ footer {
     margin: 5rem auto 0;
 }
 
-#footer-text h1 {
+.footer-text h1 {
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -327,14 +329,12 @@ footer {
     color: #fff;
 }
 
-#address {
+.address {
     margin-top: 25px;
     margin-right: 30px;
     color: #888;
     font-weight: 400;
 }
-
-
 
 #footer-icons {
     display: flex;
@@ -343,8 +343,7 @@ footer {
     color: #888;
     font-size: 2rem;
     margin: 2rem 0;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 
 .footer-icon {
@@ -358,7 +357,7 @@ footer {
 
 #footer-links {
     display: flex;
-    width: 55vw;
+    width: 50vw;
     justify-content: space-between;
     font-size: 13px;
 }
@@ -403,6 +402,50 @@ footer {
 .footer-container {
     display: flex;
     justify-content: space-around;
+    padding-top: 5rem;
+    width: 90vw;
+}
+
+.logo-footer {
+    color: #888;
+    text-transform: uppercase;
+}
+.bold-address {
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 13px;
+}
+
+#copyright-footer {
+    margin: 1.5rem 0;
+    font-size: 13px; 
+    color: #888;
+    font-style: italic;
+}
+
+#right-footer {
+    text-align: right;
+}
+
+.footer-telephone {
+    color: #8c7651;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#footer-icons-small {
+    display: flex;
+    justify-content: flex-end;
+    color: #888;
+    font-size: 1rem;
+    margin: 1rem 0;
+    cursor: pointer; 
+}
+
+.footer-icon-small {
+    margin-left: 10px;
 }
 
 .page {
