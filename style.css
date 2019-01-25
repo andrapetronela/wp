@@ -496,6 +496,30 @@ footer {
     color: #686868;
 }
 
+.careers-subheading {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #222;
+}
 
+.careers-columns {
+    width: 900px;
+}
+
+.careers-columns h4 {
+    margin-bottom: 15px;
+    color: #4a4a4a;
+    font-size: 21px;
+}
+
+.careers-columns p {
+    color: #9d9d9d;
+    font-size: 18px;
+    line-height: 31px;
+    font-weight: 300;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+/*    border-bottom: 1px solid #eee;*/
+}
 
 
