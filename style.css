@@ -91,6 +91,7 @@ nav {
     margin-top: -5rem;
 }
 
+/*
 .hero p {
     position: absolute;
     top: 50%;
@@ -100,6 +101,7 @@ nav {
     font-size: 3rem;
     background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.01));
 }
+*/
 
 #section-about {
     padding: 15rem 0;
@@ -420,7 +422,7 @@ footer {
 }
 
 #copyright-footer {
-    margin: 1.5rem 0;
+    margin: 1.5rem 0 6rem;
     font-size: 13px; 
     color: #888;
     font-style: italic;
@@ -522,4 +524,13 @@ footer {
 /*    border-bottom: 1px solid #eee;*/
 }
 
+.wwd-columns {
+    width: 900px;
+    margin-top: 5rem;
+    font-size: 16px;
+}
+
+.wwd-columns h3 {
+    color: #222;
+}
 
