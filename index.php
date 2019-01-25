@@ -1,6 +1,6 @@
 <?php get_header(); ?>
     <section class="hero">
-        <p>Your creativity journey starts here.</p>
+        
     </section>
     
     <section id="section-about">
@@ -45,7 +45,7 @@
    </div>
    <div class="footer-text">
        <h1 class="footer-color">Say hello to digital labs</h1>
-        <p id="call-text">Give us a call to discuss any project or to arrange a time to pop in to chat.</p>
+        <p id="call-text">Give us a call to discuss any project or to arrange a time to pop in to chat.<span>|</span></p>
         <p class="footer-color phone-number">020 3744 5525</p>
         <p class="footer-color email">hello@digital-labs.co.uk</p>
         <p id="address">55 Charlotte Road, Shoreditch, London, EC2A 3QF</p>
